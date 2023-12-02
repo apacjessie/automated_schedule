@@ -1,10 +1,11 @@
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from './../../../../assets/image/loa-logo.png';
+import Logo from 'assets/image/loa-logo.png';
 import { FormEvent } from 'react';
-import { redirect } from 'react-router-dom';
+
 const LoginForm = () => {
   const navigate = useNavigate();
   const onSubmit = (e: FormEvent) => {
+    e.preventDefault();
     navigate('/dashboard');
   };
   return (
