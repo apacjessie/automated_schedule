@@ -14,9 +14,7 @@ const AppRoutes = () => {
 
   const route = auth ? privateRoutes : publicRoutes;
 
-  const element = useRoutes(route);
-
-  return <>{element}</>;
+  return useRoutes(route);
 };
 
 export default AppRoutes;
