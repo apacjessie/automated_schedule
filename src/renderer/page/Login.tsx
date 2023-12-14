@@ -4,7 +4,7 @@ import LoginForm from '../components/form/LoginForm';
 const Login = () => {
   return (
     <div
-      className=" 
+      className="
             h-screen
             grid md:grid-cols-[55%,_45%]"
     >
