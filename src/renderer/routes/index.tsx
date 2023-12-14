@@ -10,7 +10,7 @@ const AppRoutes = () => {
 
   useEffect(() => {
     if (auth) navigate('/dashboard');
-  }, []);
+  }, [navigate]);
 
   const route = auth ? privateRoutes : publicRoutes;
 

@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Logo from 'assets/image/loa-logo.png';
 import { FormEvent } from 'react';
 
@@ -36,9 +36,9 @@ const LoginForm = () => {
         >
           Sign in
         </button>
-        <Link to="#" className="text-zinc-500 text-sm underline text-center">
+        <button className="text-zinc-500 text-sm underline text-center">
           Forgot Password?
-        </Link>
+        </button>
       </div>
     </form>
   );
