@@ -19,3 +19,9 @@
     src: url('/assets/fonts/Poppins-Light.ttf') format('ttf');
   }
 }
+
+@layer components {
+  .login-input {
+    @apply px-4 py-2 bg-zinc-100 rounded-md focus:outline-base;
+  }
+}
