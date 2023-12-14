@@ -1,4 +1,6 @@
-# Schedadle: Schedule Generator Solution w/ Typescript
+# Schedule Generator Solution w/ Typescript
+
+Taking advantage of genetic algorithm to create a streamline and conflict free schedules automatically.
 
 ## Run Locally
 
