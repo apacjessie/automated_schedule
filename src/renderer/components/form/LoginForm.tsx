@@ -36,7 +36,10 @@ const LoginForm = () => {
         >
           Sign in
         </button>
-        <button className="text-zinc-500 text-sm underline text-center">
+        <button
+          type="submit"
+          className="text-zinc-500 text-sm underline text-center"
+        >
           Forgot Password?
         </button>
       </div>
