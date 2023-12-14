@@ -10,7 +10,7 @@ const Login = () => {
     >
       <img
         className="m-0 p-0 object-cover h-full hidden md:block"
-        alt="Hero image"
+        alt="Login side background"
         src={HeroImage}
       />
       <div className="bg-white flex w-full h-full flex-col justify-center  items-center">

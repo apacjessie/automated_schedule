@@ -1,10 +1,10 @@
 import Dashboard from '@/pages/Dashboard';
-import { DesktopSidebar } from '../elements/sidebar';
+import Sidebar from '../elements/sidebar/Desktop';
 
 const MainLayout = () => {
   return (
     <main className="flex gap-2">
-      <DesktopSidebar />
+      <Sidebar />
       <Dashboard />
     </main>
   );
