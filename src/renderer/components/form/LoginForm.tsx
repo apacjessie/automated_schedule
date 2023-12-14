@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import Logo from 'assets/image/loa-logo.png';
 import { FormEvent } from 'react';
 
-const LoginForm = () => {
+function LoginForm() {
   const navigate = useNavigate();
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -36,12 +36,15 @@ const LoginForm = () => {
         >
           Sign in
         </button>
-        <button className="text-zinc-500 text-sm underline text-center">
+        <button
+          type="submit"
+          className="text-zinc-500 text-sm underline text-center"
+        >
           Forgot Password?
         </button>
       </div>
     </form>
   );
-};
+}
 
 export default LoginForm;
