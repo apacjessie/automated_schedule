@@ -5,6 +5,7 @@ module.exports = {
       poppins: ['Poppins', 'sans-serif', 'system-ui'],
     },
     colors: {
+      base: '#000A2F',
       white: '#fff',
       black: '#000',
       slate: '#cbd5e1',

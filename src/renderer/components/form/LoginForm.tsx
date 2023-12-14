@@ -20,16 +20,8 @@ function LoginForm() {
       </h1>
 
       <div className="flex flex-col gap-4 w-[55%] mt-10">
-        <input
-          type="email"
-          placeholder="Email"
-          className="px-4 py-2 bg-zinc-100 rounded-md"
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          className="px-4 py-2 bg-zinc-100 rounded-md"
-        />
+        <input type="email" placeholder="Email" className="login-input" />
+        <input type="password" placeholder="Password" className="login-input" />
         <button
           type="submit"
           className="bg-blue-500 text-white p-2 py-1.5 rounded-md mt-4 font-bold text-lg"
