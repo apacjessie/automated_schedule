@@ -1,13 +1,17 @@
-import { ReactNode } from 'react';
 import publicRoutes from './public';
-import { useRoutes } from 'react-router-dom';
+import { useNavigate, useRoutes } from 'react-router-dom';
+import privateRoutes from './private';
+import { useEffect } from 'react';
+const auth = true;
 
 const AppRoutes = () => {
-  const auth = false;
+  const navigate = useNavigate();
 
-  const route = auth
-    ? [{ path: '/', element: <h1>Hello world</h1> }]
-    : publicRoutes;
+  useEffect(() => {
+    if (auth) navigate('/dashboard');
+  }, []);
+
+  const route = auth ? privateRoutes : publicRoutes;
 
   const element = useRoutes(route);
 

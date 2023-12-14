@@ -3,7 +3,7 @@ import { DesktopSidebar } from '../elements/sidebar';
 
 const MainLayout = () => {
   return (
-    <main>
+    <main className="flex gap-2">
       <DesktopSidebar />
       <Dashboard />
     </main>
