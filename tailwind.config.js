@@ -4,10 +4,10 @@ module.exports = {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif', 'system-ui'],
     },
-    colors: {
-      base: '#000A2F',
-      white: '#fff',
-      black: '#000',
+    extend: {
+      colors: {
+        base: '#000A2F',
+      },
     },
   },
   variants: {},
