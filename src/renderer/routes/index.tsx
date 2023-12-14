@@ -1,7 +1,8 @@
-import publicRoutes from './public';
 import { useNavigate, useRoutes } from 'react-router-dom';
-import privateRoutes from './private';
 import { useEffect } from 'react';
+import publicRoutes from './public';
+import privateRoutes from './private';
+
 const auth = true;
 
 const AppRoutes = () => {

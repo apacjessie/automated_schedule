@@ -1,4 +1,4 @@
-import HeroImage from '../../../assets/image/login.png';
+import HeroImage from 'assets/image/login.png';
 import LoginForm from '../components/form/LoginForm';
 
 const Login = () => {
