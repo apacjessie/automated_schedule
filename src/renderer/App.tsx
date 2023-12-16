@@ -1,6 +1,11 @@
 import './App.css';
-import PageRoute from './page/PageRoute';
+import AppProviders from './providers/app';
+import AppRoutes from './routes';
 
 export default function App() {
-  return <PageRoute />;
+  return (
+    <AppProviders>
+      <AppRoutes />
+    </AppProviders>
+  );
 }
