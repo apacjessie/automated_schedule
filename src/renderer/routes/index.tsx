@@ -8,8 +8,10 @@ const AppRoutes = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (auth.authenticated) navigate('/dashboard');
-  }, [navigate]);
+    if (auth.authenticated) navigate('/');
+    else navigate('/auth/signin');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const route = auth.authenticated ? privateRoutes : publicRoutes;
 

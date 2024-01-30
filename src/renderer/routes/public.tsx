@@ -2,7 +2,7 @@ import Login from '@/pages/Login';
 
 const publicRoutes = [
   {
-    path: '/',
+    path: '/auth/signin',
     element: <Login />,
   },
 ];

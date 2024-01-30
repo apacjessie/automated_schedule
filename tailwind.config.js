@@ -12,6 +12,7 @@ module.exports = {
         slate: '#cbd5e1',
         accent: '#2563eb',
         hovers: '#f1f5f9',
+        badge: '#DAE2FF',
       },
     },
   },
