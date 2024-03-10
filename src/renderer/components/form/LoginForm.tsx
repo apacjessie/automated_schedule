@@ -6,7 +6,7 @@ function LoginForm() {
   const navigate = useNavigate();
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
-    navigate('/dashboard');
+    navigate('/');
   };
   return (
     <form

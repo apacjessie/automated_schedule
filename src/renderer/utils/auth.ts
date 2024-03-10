@@ -10,8 +10,8 @@ interface Props {
 }
 
 const auth: Props = {
-  authenticated: false,
-  accountType: AccountType.ITM,
+  authenticated: true,
+  accountType: AccountType.DEAN,
 };
 
 export default auth;
